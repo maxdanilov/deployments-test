@@ -17,7 +17,7 @@ jobs:
         with:
           token: "${{ github.token }}"
           target_url: https://my-app-url.com
-          environment: production
+          environment: staging
         # more steps below where you run your deployment scripts inside the same action
 
       - name: Update deployment status (success)
